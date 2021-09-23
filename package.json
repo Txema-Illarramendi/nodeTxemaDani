@@ -1,0 +1,20 @@
+{
+  "name": "pruebota",
+  "version": "1.0.0",
+  "description": "Una prueba",
+  "main": "index.js",
+  "repository": "https://github.com/Txema-Illarramendi/nodeTxemaDani.git",
+  "author": "Txema",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.0.0-rc.0"
+  },
+  "scripts": {
+    "start": "parcel serve *.html --open"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.0.0-rc.0",
+    "posthtml-extend": "^0.6.0",
+    "posthtml-include": "^1.7.1"
+  }
+}
